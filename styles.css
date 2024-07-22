@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: rgb(251, 63, 231);
+    background: radial-gradient(circle, rgba(251, 63, 231, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    background: rgb(251, 63, 163);
+    background: radial-gradient(circle, rgba(163, 63, 251, 0.757) 0%, rgb(72, 135, 173) 100%);
+}
+
+.book-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.book-logo img {
+    width: 100px;
+}
+
+.book-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: -10px;
+}
+
+.book-text h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+
+.book-text span {
+    font-weight: 500;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: "Ubuntu";
+    color: rgb(74, 72, 72);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Intro Section */
+.intro-section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text h1 {
+    font-family: "Nunito";
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 3px 10px rgb(255, 253, 253);
+}
+
+.intro-text input {
+    padding: 0.5rem 5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.intro-text .search {
+    position: relative;
+    top: 3px;
+    left: -30px;
+
+}
+
+.intro-images {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.intro-images .img-border {
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.intro-images img {
+    width: 500px;
+    filter: drop-shadow(0 0 15px rgb(66, 66, 66));
+
+}
+.collection{
+    display: flex;
+    margin-top: 20px;
+    
+    align-items: center;
+    justify-content: center;
+}.collection span{
+    width:  100px;
+    margin-inline:20px ;
+    height: 2px;
+    background-color: black;
+}
+.collection span::before{
+    content: " ";
+}
+.container .collection-heading {
+
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: rgb(251, 63, 231);
+    background: radial-gradient(circle, rgba(251, 63, 231, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    background: rgb(251, 63, 163);
+    background: radial-gradient(circle, rgba(163, 63, 251, 0.757) 0%, rgb(72, 135, 173) 100%);
+}
+
+.book-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.book-logo img {
+    width: 100px;
+}
+
+.book-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: -10px;
+}
+
+.book-text h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+
+.book-text span {
+    font-weight: 500;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: "Ubuntu";
+    color: rgb(74, 72, 72);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Intro Section */
+.intro-section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text h1 {
+    font-family: "Nunito";
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 3px 10px rgb(255, 253, 253);
+}
+
+.intro-text input {
+    padding: 0.5rem 5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.intro-text .search {
+    position: relative;
+    top: 3px;
+    left: -30px;
+
+}
+
+.intro-images {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.intro-images .img-border {
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.intro-images img {
+    width: 500px;
+    filter: drop-shadow(0 0 15px rgb(66, 66, 66));
+
+}
+.collection{
+    display: flex;
+    margin-top: 20px;
+    
+    align-items: center;
+    justify-content: center;
+}.collection span{
+    width:  100px;
+    margin-inline:20px ;
+    height: 2px;
+    background-color: black;
+}
+.collection span::before{
+    content: " ";
+}
+.container .collection-heading {
+
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
